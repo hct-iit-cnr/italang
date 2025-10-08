@@ -1,0 +1,41 @@
+html, body
+    padding: 0
+    margin: 0
+    overflow: hidden
+    
+body
+    background: #EEE
+    
+.comune
+    shape-rendering: crispEdges
+    fill-opacity: 1
+    &:hover
+        fill-opacity: 0.6
+        
+.regioni
+    fill: none
+    stroke: #333
+    stroke-width: 1px
+    vector-effect: non-scaling-stroke
+    stroke-dasharray: 1 2
+    
+.italia
+    fill: none
+    stroke: #333
+    stroke-width: 1px
+    vector-effect: non-scaling-stroke
+    
+@font-face
+    font-family: "Lacuna"
+    src: url("lacuna.ttf")
+    
+.graticule
+    fill: none
+    stroke: #777
+    stroke-width: .5px
+    stroke-opacity: .5
+    vector-effect: non-scaling-stroke
+    
+#overlay
+    pointer-events: none
+    
